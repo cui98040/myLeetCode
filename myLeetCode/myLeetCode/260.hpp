@@ -10,5 +10,6 @@
 #define _60_hpp
 
 #include <stdio.h>
+#include<vector>
 
 #endif /* _60_hpp */

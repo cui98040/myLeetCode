@@ -27,7 +27,7 @@
 
 class Solution {
 public:
-    vector<int> singleNumber(vector<int>& nums)
+    std::vector<int> singleNumber(std::vector<int>& nums)
     {
         int result[2]={0,0};
         for(int i=0, status=0,count=0;i<nums.size();i++)
@@ -44,7 +44,7 @@ public:
             }
         }
         int A=result[0],B=result[1];
-        return vector<int>({A,B});
+        return std::vector<int>({A,B});
     }
 };
 
