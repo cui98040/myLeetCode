@@ -12,6 +12,7 @@
 		D810C86D1C7C96BC005A4C03 /* 136.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D810C86B1C7C96BC005A4C03 /* 136.cpp */; };
 		D810C8701C7C9834005A4C03 /* 258.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D810C86E1C7C9834005A4C03 /* 258.cpp */; };
 		D810C8731C7C9899005A4C03 /* 283.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D810C8711C7C9899005A4C03 /* 283.cpp */; };
+		D8B4B6C61C7D5BE1007F741F /* 260.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8B4B6C41C7D5BE1007F741F /* 260.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		D810C86F1C7C9834005A4C03 /* 258.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 258.hpp; sourceTree = "<group>"; };
 		D810C8711C7C9899005A4C03 /* 283.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 283.cpp; sourceTree = "<group>"; };
 		D810C8721C7C9899005A4C03 /* 283.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 283.hpp; sourceTree = "<group>"; };
+		D8B4B6C41C7D5BE1007F741F /* 260.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 260.cpp; sourceTree = "<group>"; };
+		D8B4B6C51C7D5BE1007F741F /* 260.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = 260.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				D810C86C1C7C96BC005A4C03 /* 136.hpp */,
 				D810C8711C7C9899005A4C03 /* 283.cpp */,
 				D810C8721C7C9899005A4C03 /* 283.hpp */,
+				D8B4B6C41C7D5BE1007F741F /* 260.cpp */,
+				D8B4B6C51C7D5BE1007F741F /* 260.hpp */,
 			);
 			path = myLeetCode;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B4B6C61C7D5BE1007F741F /* 260.cpp in Sources */,
 				D810C86D1C7C96BC005A4C03 /* 136.cpp in Sources */,
 				D810C8621C7C9610005A4C03 /* main.cpp in Sources */,
 				D810C8731C7C9899005A4C03 /* 283.cpp in Sources */,
@@ -261,6 +267,7 @@
 				D810C8671C7C9610005A4C03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
